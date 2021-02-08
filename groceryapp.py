@@ -54,6 +54,9 @@ while True:
         new_item = Item(name_item, price, quantity)
         stores[store_choice - 1].list.append(new_item)
 
+    elif choice == "3":
+        
+
     elif choice == "q":
         break
         
