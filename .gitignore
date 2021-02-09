@@ -3,3 +3,12 @@ classes.py
 customer-and-address.py
 example.py
 day6activity2.py
+inherit.py
+bank_account.py
+exceptions-activity.py
+exceptions.py
+intro-unit-testing.py
+test_bank_account.py
+calculator.py
+test_calculator_palindrome_factorial.py
+__pycache__

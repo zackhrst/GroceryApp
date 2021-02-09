@@ -11,6 +11,18 @@ class Store:
         self.store_address = address
         self.items = []
 
+    def add_item(self, item):
+        # Check if item is already in store
+        # then add item to the items array
+        # else ignore it
+        pass
+
+    def remove_item(self, item):
+        # Check if item is in list
+        # then remove item from items array
+        # else ignore it
+        pass
+
 class Item:
     def __init__(self, name, price, quantity):
         self.name = name
@@ -89,6 +101,7 @@ while True:
         item_quantity = int(input("How many are you buying?: "))
         item = Item(item_name, item_price, item_quantity)
         # add item to the store
+        #store.add_item(item) # better approach because you can check for duplciates on list and prevent them.
         store.items.append(item)
 
     elif choice == "3":
